@@ -9,10 +9,7 @@ jobs:
    env:
     JFROG_USER: ${{secrets.JFROG_USER}}
     JFROG_PASS: ${{secrets.JFROG_PASS}}
-
-
   runs-on: ubuntu-latest
-
   steps:
     - uses: actions/checkout@v2
     - name: Set up JDK
