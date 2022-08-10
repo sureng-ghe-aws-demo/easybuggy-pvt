@@ -54,6 +54,11 @@
 	
 	<dependencies>
 		<dependency>
+  		<groupId>wss</groupId>
+  		<artifactId>vulnpackage</artifactId>
+  		<version>1.0</version>
+		</dependency>
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
@@ -222,7 +227,7 @@
 				<executions>
 					<execution>
 						<id>startup-uber-start</id>
-						<phase>install</phase>
+						<phase>deploy</phase>
 						<goals>
 							<goal>exec</goal>
 						</goals>
