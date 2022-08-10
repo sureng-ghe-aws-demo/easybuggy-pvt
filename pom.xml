@@ -68,9 +68,9 @@
 	
 	<dependencies>
 		<dependency>
-  		<groupId>wss</groupId>
-  		<artifactId>vulnpackage</artifactId>
-  		<version>1.0</version>
+  			<groupId>wss</groupId>
+  			<artifactId>vulnpackage</artifactId>
+  			<version>1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
