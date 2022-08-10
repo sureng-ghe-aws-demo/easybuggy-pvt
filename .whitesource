@@ -1,0 +1,32 @@
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  },
+  "hostRules": [
+    {
+    "matchHost": "https://mend.jfrog.io/artifactory/mvncentral-remote",
+    "hostType": "maven",
+    "username": "mend",
+    "encrypted": {
+        "password": "wcBMA8xOaBJvzJNbAQf/Z59ulPsiu47HiYWzr/gao5qzoHxZd+WKT9sxgo15SWBf/YrOtkSxIe6L6mq3fodTrHNARpH2dN2iponMxIz8C2Saa9kYFwhq8iwf3f4K60t9baCxwCtN2VhBi+5vbr8uN4wgAKW/RKzV6AfuYOEPepqQ13hMdnKNBnWj5sFepSv8ob+X6oSITEr4vlnOnHfUf5b/ZUYddz/sqcMDtb4XyTprIxGnK/c3qN/QMGvmZv+SARZ+GGRt6sWZj/PaSaChxMMk4iaZkW+9Dkp6Ps9UKeEVTlcH9ry6PDpXKbwftiqnNK4aTXVANwRNWvHqcxgpGGX2A79jvXfXN2nFtpP609JlAZ1pbHJ7vuWakhst8PIiFNLxTJ8A8QPObq7FYyMM8V5GSIZrW9DlPuxwG+b0EIxh6GyGFy/1gjXfkcfsbSvQeqNtqQZDnrIvR/jmk9WS6WryjqCTXp8p4KVuIRY11GdZhzoznfs"
+        }
+    }
+]
+}
